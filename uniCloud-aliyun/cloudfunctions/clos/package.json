@@ -1,0 +1,7 @@
+{
+  "name": "clos",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

@@ -1,0 +1,28 @@
+@import"@/uni.scss;"
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1662698969884') format('truetype');
+}
+
+/* #ifndef MP-WEIXIN */
+.uni-tabbar__bd {
+	height: 112rpx !important;
+}
+.uni-tabbar__label {
+	line-height: 1.5 !important;
+}
+
+.container .uni-nav-bar-text{
+        font-size: 28rpx !important;
+        font-weight: normal;
+    }
+/* #endif */
+
+/* 按钮统一反馈的颜色 */
+.btn-active {
+	opacity: 0.7;
+}
+
+.uni-scroll-view ::-webkit-scrollbar{
+	display: none;
+}

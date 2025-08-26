@@ -1,0 +1,11 @@
+{
+    "prompt" : "template",
+    "buttonAccept" : "同意并接受",
+    "buttonRefuse" : "基础功能模式",
+    "disagreeMode" : {
+        "support" : true,
+        "loadNativePlugins" : false,
+        "visitorEntry" : true,
+        "showAlways" : false
+    }
+}

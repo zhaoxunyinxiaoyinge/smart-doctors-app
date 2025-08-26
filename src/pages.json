@@ -1,0 +1,714 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		// {
+		// 	"path": "pages/login/login",
+		// 	"style": {
+		// 		"navigationBarTitleText": "",
+		// 		"enablePullDownRefresh": false
+		// 	}
+		// },
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+		    "path": "uni_modules/uni-id-pages/pages/login/login-withoutpwd",
+		    "style": {
+		        "navigationBarTitleText": "登录"
+		    }
+		},
+		{
+		    "path": "uni_modules/uni-id-pages/pages/register/register",
+		    "style": {
+		        "navigationBarTitleText": "注册"
+		    }
+		}
+		,
+		
+		{
+			"path": "pages/residentNoSignPage/residentNoSignPage",
+			"style": {
+				"navigationBarTitleText": "未签约居民",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/servepackagelist/servepackagelist",
+			"style": {
+				"navigationBarTitleText": "服务包列表",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/healthnote/healthnote",
+			"style": {
+				"navigationBarTitleText": "健康记录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/headlthedit/headlthedit",
+			"style": {
+				"navigationBarTitleText": "健康档案",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/healthpage/healthpage",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+
+		},
+		{
+			"path": "pages/residentdetail/residentdetail",
+			"style": {
+				"navigationBarTitleText": "居民详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/residentaddserve/residentaddserve",
+			"style": {
+				"navigationBarTitleText": "添加服务",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+
+		{
+			"path": "pages/signmange/signmange",
+			"style": {
+				"navigationBarTitleText": "签约管理",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/watingserve/watingserve",
+			"style": {
+				"navigationBarTitleText": "待处理服务申请",
+				"enablePullDownRefresh": true
+			}
+
+		},
+		{
+			"path": "pages/watingsign/watingsign",
+			"style": {
+				"navigationBarTitleText": "待处理签约申请",
+				"enablePullDownRefresh": true
+			}
+
+		},
+
+
+
+		{
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "新建居民档案",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+
+		{
+			"path": "pages/cartgory/index",
+			"style": {
+				"navigationBarTitleText": "居民"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+
+
+		, {
+			"path": "pages/family/family",
+			"style": {
+				"navigationBarTitleText": "选择家庭成员",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sign/sign",
+			"style": {
+				"mp-weixin": {
+					"navigationBarTitleText": "填写签约信息"
+				},
+
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/signsuccess/signsuccess",
+			"style": {
+				"navigationBarTitleText": "提交成功",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/verifyerror/verifyerror",
+			"style": {
+				"navigationBarTitleText": "签约失败",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/verifypass/verifypass",
+			"style": {
+				"navigationBarTitleText": "审核通过",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/signdetail/signdetail",
+			"style": {
+				"navigationBarTitleText": "签约详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/servemange/servemange",
+			"style": {
+				"navigationBarTitleText": "服务管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/serveDetail/serveDetail",
+			"style": {
+				"navigationBarTitleText": "服务详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/serveverifypass/serveverifypass",
+			"style": {
+				"navigationBarTitleText": "审核通过",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/serveveriflyerror/serveveriflyerror",
+			"style": {
+				"navigationBarTitleText": "审核驳回",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/servecancle/servecancle",
+			"style": {
+				"navigationBarTitleText": "取消成功",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/resident/resident",
+			"style": {
+				"navigationBarTitleText": "居民",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+
+
+		, {
+			"path": "pages/residentServeRecord/residentServeRecord",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "uni_modules/uni-upgrade-center-app/pages/upgrade-popup",
+			"style": {
+				"disableScroll": true,
+				"app-plus": {
+					"backgroundColorTop": "transparent",
+					"background": "transparent",
+					"titleNView": false,
+					"scrollIndicator": false,
+					"popGesture": "none",
+					"animationType": "fade-in",
+					"animationDuration": 200
+
+				}
+			}
+		}
+    ,{
+            "path" : "pages/resister/resister",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+			"path": "uni_modules/uni-id-pages/pages/common/webview/webview"
+			
+		}
+
+,{
+    "path": "uni_modules/uni-id-pages/pages/login/login-withpwd",
+    "style": {
+        "navigationBarTitleText": "账号密码登录"
+    }
+}
+,{
+    "path": "uni_modules/uni-id-pages/pages/login/login-smscode",
+    "style": {
+        "navigationBarTitleText": "手机验证码登录"
+    }
+}
+,{
+    "path": "uni_modules/uni-id-pages/pages/userinfo/userinfo",
+    "style": {
+        "navigationBarTitleText": "个人资料"
+    }
+}
+,{
+    "path": "uni_modules/uni-id-pages/pages/userinfo/bind-mobile/bind-mobile",
+    "style": {
+        "navigationBarTitleText": "绑定手机号码"
+    }
+}
+,{
+    "path": "uni_modules/uni-id-pages/pages/userinfo/cropImage/cropImage",
+    "style": {
+        "navigationBarTitleText": ""
+    }
+}
+,{
+    "path": "uni_modules/uni-id-pages/pages/register/register-by-email",
+    "style": {
+        "navigationBarTitleText": "邮箱验证码注册"
+    }
+}
+,{
+    "path": "uni_modules/uni-id-pages/pages/retrieve/retrieve",
+    "style": {
+        "navigationBarTitleText": "重置密码"
+    }
+}
+,{
+    "path": "uni_modules/uni-id-pages/pages/retrieve/retrieve-by-email",
+    "style": {
+        "navigationBarTitleText": "通过邮箱重置密码"
+    }
+}
+,{
+    "path": "uni_modules/uni-id-pages/pages/userinfo/change_pwd/change_pwd",
+    "style": {
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": "修改密码"
+    }
+}
+,{
+    "path": "uni_modules/uni-id-pages/pages/register/register-admin",
+    "style": {
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": "注册管理员账号"
+    }
+}
+,{
+    "path": "uni_modules/uni-id-pages/pages/userinfo/set-pwd/set-pwd",
+    "style": {
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": "设置密码"
+    }
+}
+,{
+    "path": "uni_modules/uni-id-pages/pages/userinfo/deactivate/deactivate",
+    "style": {
+        "navigationBarTitleText": "注销账号"
+    }
+}
+,{
+    "path": "uni_modules/uni-id-pages/pages/userinfo/realname-verify/realname-verify",
+    "style": {
+        "enablePullDownRefresh": false,
+        "navigationBarTitleText": "实名认证"
+    }
+}
+],
+
+	"easycom": {
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		},
+		"^w-(.*)": "@uni-ui/code-ui/components/w-$1/index.vue"
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#eee",
+		"navigationStyle": "custom",
+		"mp-weixin": {
+			"navigationStyle": "default"
+		}
+	},
+	"subPackages": [{
+			"root": "packageA",
+			"pages": [{
+					"path": "setmark/setmark",
+					"style": {
+						"navigationBarTitleText": "设置标签",
+						"enablePullDownRefresh": false
+					}
+
+				},
+				{
+					"path": "mark/mark",
+					"style": {
+						"navigationBarTitleText": "标签",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "createMark/createMark",
+					"style": {
+						"navigationBarTitleText": "创建标签",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "checkMember/checkMember",
+					"style": {
+						"navigationBarTitleText": "选择成员",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "batchsender/batchsender",
+					"style": {
+						"navigationBarTitleText": "群发消息",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "senderpage/senderpage",
+					"style": {
+						"navigationBarTitleText": "新建群发",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "residentSearch/residentSearch",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		},
+		{
+			"root": "packageB",
+			"pages": [
+
+				{
+					"path": "messageServe/messageServe",
+					"style": {
+						"navigationBarTitleText": "服务消息",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "talkmessage/talkmessage",
+					"style": {
+						"navigationBarTitleText": "消息",
+						"enablePullDownRefresh": false
+					}
+				}
+			]
+		},
+		{
+			"root": "packageC",
+			"pages": [
+
+				{
+					"path": "settion/settion",
+					"style": {
+						"navigationBarTitleText": "设置",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "peonalData/peonalData",
+					"style": {
+						"navigationBarTitleText": "设置个人",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "updatepassword/updatepassword",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "scan/scan",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "myTeam/myTeam",
+					"style": {
+						"navigationBarTitleText": "我的团队",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "applyJoinTeam/applyJoinTeam",
+					"style": {
+						"navigationBarTitleText": "申请加入团队",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "teamManagement/teamManagement",
+					"style": {
+						"navigationBarTitleText": "团队管理",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "setTeamInfo/setTeamInfo",
+					"style": {
+						"navigationBarTitleText": "设置团队信息",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "setTeamName/setTeamName",
+					"style": {
+						"navigationBarTitleText": "设置团队名称",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "setTeamLabel/setTeamLabel",
+					"style": {
+						"navigationBarTitleText": "设置团队标签",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "teamMember/teamMember",
+					"style": {
+						"navigationBarTitleText": "团队成员",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "setMemberInfo/setMemberInfo",
+					"style": {
+						"navigationBarTitleText": "设置成员信息",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "setTeamNumber/setTeamNumber",
+					"style": {
+						"navigationBarTitleText": "设置成员电话号码",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "setGoods/setGoods",
+					"style": {
+						"navigationBarTitleText": "",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "myserveMange/myserveMange",
+					"style": {
+						"navigationBarTitleText": "服务包管理",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "checkTeamMange/checkTeamMange",
+					"style": {
+						"navigationBarTitleText": "选择服务包",
+						"enablePullDownRefresh": true
+					}
+
+				}, {
+					"path": "serveMangeDetail/serveMangeDetail",
+					"style": {
+						"navigationBarTitleText": "服务包详情",
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		},
+		{
+			"root": "packageD",
+			"pages": [
+
+				{
+					"path": "joinApply/joinApply",
+					"style": {
+						"navigationBarTitleText": "加入申请",
+						"enablePullDownRefresh": false
+					}
+
+				}, {
+					"path": "setHead/setHead",
+					"style": {
+						"navigationBarTitleText": "设置团队长",
+						"enablePullDownRefresh": true
+					}
+
+				}, {
+					"path": "disband/disband",
+					"style": {
+						"navigationBarTitleText": "解散团队",
+						"enablePullDownRefresh": false
+					}
+
+				}
+			]
+		},
+		{
+			"root": "bosses",
+			"pages": [
+				{
+					"path": "list"
+				},
+				{
+					"path": "add"
+				},
+				{
+					"path": "detail"
+				},
+				{
+					"path": "edit"
+				}
+			]
+		}
+	],
+
+	"tabBar": {
+		"fontSize": "14px",
+		"color": "#7A7E83",
+		"selectedColor": "#663399",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"iconfontSrc": "./static/iconfont.ttf",
+		/* #ifndef MP-WEIXIN */
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconfont": {
+					"fontSize": "16px",
+					"text": "\ue610",
+					"color": "#000",
+					"selectedColor": "#663399"
+				}
+			},
+			{
+				"pagePath": "pages/resident/resident",
+				"text": "居民",
+				"iconfont": {
+					"fontSize": "16px",
+					"text": "\ue653",
+					"color": "#000",
+					"selectedColor": "#663399"
+				}
+			},
+			{
+				"pagePath": "pages/message/message",
+				"text": "消息",
+				"iconfont": {
+					"fontSize": "16px",
+					"text": "\ue602",
+					"color": "#000",
+					"selectedColor": "#663399"
+				}
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconfont": {
+					"fontSize": "16px",
+					"text": "\ue63f",
+					"color": "#000",
+					"selectedColor": "#663399"
+				}
+			}
+
+		],
+		/* #endif */
+		/* #ifdef MP-WEIXIN */
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "./static/house.png",
+				"selectedIconPath": "./static/house_1.png"
+			}, {
+				"pagePath": "pages/resident/resident",
+				"text": "居民",
+				"iconPath": "./static/renqun.png",
+				"selectedIconPath": "./static/user-group-fill.png"
+			},
+			{
+				"pagePath": "pages/message/message",
+				"text": "消息",
+				"iconPath": "./static/message_1.png",
+				"selectedIconPath": "./static/message.png"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "./static/geren.png",
+				"selectedIconPath": "./static/geren_1.png"
+			}
+		]
+		/* #endif */
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "pages/index/index", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+
+}
